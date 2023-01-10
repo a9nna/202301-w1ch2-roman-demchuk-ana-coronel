@@ -2,7 +2,6 @@
   "name": "202301-w1ch2-roman-demchuk-ana-coronel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "prebuild:dev": "rimraf dist",
     "prebuild": "rimraf dist",
