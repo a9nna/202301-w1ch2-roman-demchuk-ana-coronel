@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rom-dem/202301-w1ch2-roman-demchuk-ana-coronel/issues"
   },
-  "homepage": "https://github.com/rom-dem/202301-w1ch2-roman-demchuk-ana-coronel#readme"
+  "homepage": "https://github.com/rom-dem/202301-w1ch2-roman-demchuk-ana-coronel#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
 }
