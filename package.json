@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rom-dem/202301-w1ch2-roman-demchuk-ana-coronel#readme",
   "devDependencies": {
-    "parcel": "^2.8.2"
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
   }
 }
